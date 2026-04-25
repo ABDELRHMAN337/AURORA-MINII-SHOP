@@ -1,54 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AURORA MINI SHOP</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header class="header">
-            <h1 class="brand">AURORA MINI SHOP</h1>
-            <p class="tagline">three products cards with equal layout and size.</p>
-        </header>
-        <main class="container">
-            <!--card 1-->
-            <article class="card ta-left">
-                <span class="badge">New</span>
-                <img src="images5.jpg" alt="Cotton hoodie" class="product-image">
-                <h3 class="product-title">Cotton Hoodie</h3>
-                <p class="text">A comfortable and stylish cotton hoodie for everyday wear.</p>
-                <div class="overflow-box ov-visible">
-                    <b>visible:</b>this discripton is too long to fit in the box, but it will be fully visible without any clipping or hiding. It may overflow outside the container, but it will not be hidden or cut off.
-                </div>
-<p class="price">$19.99</p>
-<button class="btn add-to-cart">Add to Cart</button>
-            </article>
-            <!--card 2-->
-            <article class="card ta-left">
-                <span class="badge">New</span>
-                <img src="download.jpg" alt="Hoodie" class="product-image">
-                <h3 class="product-title">Hoodie</h3>
-                <p class="text">A warm and cozy hoodie for casual wear.</p>
-                <div class="overflow-box ov-visible">
-                    <b>visible:</b>this discripton is too long to fit in the box, but it will be fully visible without any clipping or hiding. It may overflow outside the container, but it will not be hidden or cut off.
-                </div>
-<p class="price">$29.99</p>
-<button class="btn add-to-cart">Add to Cart</button>
-            </article>
-            <!--card 3-->
-            <article class="card ta-left">
-                <span class="badge">New</span>
-                <img src="download (1).jpg" alt="Sweater" class="product-image">
-                <h3 class="product-title">Sweater</h3>
-                <p class="text">A soft and warm sweater for cool weather.</p>
-                <div class="overflow-box ov-visible">
-                    <b>visible:</b>this discripton is too long to fit in the box, but it will be fully visible without any clipping or hiding. It may overflow outside the container, but it will not be hidden or cut off.
-                </div>
-<p class="price">$39.99</p>
-<button class="btn add-to-cart">Add to Cart</button>
-            </article>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURORA MINI SHOP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="brand">AURORA MINI SHOP</h1>
+        <p class="tagline">Three product cards with equal layout and size.</p>
+    </header>
 
-           
-    </body>
+    <main class="shop-container">
+        <article class="product-card">
+            <span class="badge black">New</span>
+            <div class="image-box"><img src="images5.jpg" alt="Cotton Hoodie"></div>
+            <h3 class="product-title">Cotton Hoodie</h3>
+            <p class="description">100% organic cotton hoodie designed for everyday comfort.</p>
+            <div class="overflow-box ov-visible">
+                <b>visible:</b> This description is very long and may spill out of the box.
+            </div>
+            <p class="price">$19.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </article>
+
+        <article class="product-card">
+            <span class="badge green">Fresh</span>
+            <div class="image-box"><img src="download (1).jpg" alt="HOODIE"></div>
+            <h3 class="product-title">HOODIE</h3>
+            <p class="description">Comfortable and stylish hoodie for all seasons.</p>
+            <div class="overflow-box ov-hidden">
+                <b>hidden:</b> This description is too long and will be clipped.
+            </div>
+            <p class="price">$29.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </article>
+
+        <article class="product-card">
+            <span class="badge orange">Sale</span>
+            <div class="image-box"><img src="download.jpg" alt="Classic Hoodie"></div>
+            <h3 class="product-title">Classic Hoodie</h3>
+            <p class="description">Warm fleece hoodie with a relaxed fit. Available in multiple colors.</p>
+            <div class="overflow-box ov-auto">
+                <b>auto:</b> This description is extremely long and will show a scrollbar to read more.
+            </div>
+            <p class="price">$39.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </article>
+    </main>
+</body>
 </html>
